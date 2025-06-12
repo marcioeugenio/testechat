@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chat com Camila ❤️</title>
+  <link href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="chat-container">
+    <div class="chat-header">
+      <img src="/camila.jpg" alt="Camila" />
+      <div>
+        <strong>Camila</strong><br />
+        <small>Online agora</small>
+      </div>
+    </div>
+    <div class="chat-messages" id="chatMessages">
+      <div class="message received">Oi, eu sou a Camila 💕. Estou aqui só pra você. Podemos conversar um pouco?</div>
+    </div>
+    <div class="chat-input">
+      <input type="text" id="userInput" placeholder="Digite sua mensagem..." />
+      <button onclick="sendMessage()">Enviar</button>
+    </div>
+  </main>
+  <script src="chat.js"></script>
+</body>
+</html>
